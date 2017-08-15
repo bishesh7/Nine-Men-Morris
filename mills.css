@@ -1,0 +1,77 @@
+.xcoin{
+	display: inline-block;
+	background-color: grey;
+	width:30px;
+	height:30px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color:white;
+	cursor: pointer;
+
+}
+.ycoin{
+	display: inline-block;
+	background-color: blue;
+	width:30px;
+	height:30px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+	cursor: pointer;
+
+}
+.middle{
+	display: inline-block;
+	width:400px;
+
+}
+.spot{
+	width:30px;
+	height:30px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: red;
+	position:absolute;
+	cursor: pointer;
+}
+
+.box{
+	border:solid; 
+	background-color: orange;
+	border-color: green;
+	width:60%;
+	height:60%; 
+	white-space:nowrap;
+	position:absolute;
+   
+	
+    margin-top:19%;
+	margin-left:20% ;
+}
+
+
+.hline{
+	position: relative;
+	top: 50%;
+	width: 100%;
+	
+	border-bottom-style: solid;
+	border-bottom-color: green;
+
+
+}
+.vline{
+	position: absolute;
+	top:-1px;
+	left-margin:-1px;
+	left: 50%;
+	height: 100%;
+	width: 0%;
+	
+	border-left-style: solid;
+	border-left-color: green;
+}
+#s1{
+	left:25%;
+	text-align: center;
+}
